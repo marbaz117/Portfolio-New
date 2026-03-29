@@ -1,6 +1,6 @@
 import React from 'react';
-import { Card, CardContent } from './ui/card';
-import { Badge } from './ui/badge';
+import { Card, CardContent } from './ui/card.jsx';
+import { Badge } from './ui/badge.jsx';
 
 const Skills = ({ portfolioData }) => {
   return (

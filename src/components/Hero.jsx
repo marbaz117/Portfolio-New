@@ -1,6 +1,13 @@
 import React from 'react';
-import { Button } from './ui/button';
-import { Github, Linkedin, Mail, MapPin, Code2, ArrowRight } from 'lucide-react';
+import { Button } from './ui/button.jsx';
+import {
+  Mail,
+  MapPin,
+  Code2,
+  ArrowRight,
+  Link,
+  User
+} from 'lucide-react';
 
 const Hero = ({ portfolioData }) => {
   const scrollToContact = () => {
@@ -70,7 +77,7 @@ const Hero = ({ portfolioData }) => {
                 rel="noopener noreferrer"
                 className="p-3 bg-slate-800 hover:bg-slate-700 text-gray-300 hover:text-teal-400 rounded-lg transition-all"
               >
-                <Github className="w-5 h-5" />
+                <Link className="w-5 h-5" />
               </a>
               <a
                 href={portfolioData.personal.linkedin}
@@ -78,7 +85,7 @@ const Hero = ({ portfolioData }) => {
                 rel="noopener noreferrer"
                 className="p-3 bg-slate-800 hover:bg-slate-700 text-gray-300 hover:text-teal-400 rounded-lg transition-all"
               >
-                <Linkedin className="w-5 h-5" />
+                <User className="w-5 h-5" />
               </a>
               <a
                 href={`mailto:${portfolioData.personal.email}`}

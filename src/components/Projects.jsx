@@ -1,8 +1,8 @@
 import React from 'react';
-import { ExternalLink, Github, TrendingUp } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { Badge } from './ui/badge';
-import { Button } from './ui/button';
+import { ExternalLink, Link, TrendingUp } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from './ui/card.jsx';
+import { Badge } from './ui/badge.jsx';
+import { Button } from './ui/button.jsx';
 
 const Projects = ({ portfolioData }) => {
   return (
@@ -65,7 +65,7 @@ const Projects = ({ portfolioData }) => {
                     size="sm"
                     className="flex-1 bg-slate-900 border-slate-700 text-gray-300 hover:bg-teal-500/10 hover:border-teal-500/50 hover:text-teal-400 transition-all"
                   >
-                    <Github className="w-4 h-4 mr-2" />
+                    <Link className="w-4 h-4 mr-2" />
                     Code
                   </Button>
                   <Button

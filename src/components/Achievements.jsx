@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trophy, Code, Star, Award as AwardIcon } from 'lucide-react';
-import { Card, CardContent } from './ui/card';
+import { Card, CardContent } from './ui/card.jsx';
 
 const iconMap = {
   trophy: Trophy,

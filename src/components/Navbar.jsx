@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Button } from './ui/button';
+import { Button } from './ui/button.jsx';
 import { Menu, X, Download } from 'lucide-react';
 
 const Navbar = ({ portfolioData }) => {

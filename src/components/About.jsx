@@ -1,6 +1,6 @@
 import React from 'react';
 import { GraduationCap, Award } from 'lucide-react';
-import { Card, CardContent } from './ui/card';
+import { Card, CardContent } from './ui/card.jsx';
 
 const About = ({ portfolioData }) => {
   return (
